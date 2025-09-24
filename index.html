@@ -1,28 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>File Browser</title>
-    <style>
-        body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; padding: 0; }
-        .container { max-width: 800px; margin: 40px auto; background: #fff; padding: 24px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-        h1 { text-align: center; color: #333; }
-        ul { list-style: none; padding: 0; }
-        li { padding: 8px 0; border-bottom: 1px solid #eee; }
-        li:last-child { border-bottom: none; }
-        a { color: #007acc; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>File Browser</h1>
-        <ul>
-            <li><a href="#">Sample File 1.txt</a></li>
-            <li><a href="#">Sample File 2.txt</a></li>
-            <li><a href="#">Sample File 3.txt</a></li>
-        </ul>
-    </div>
-</body>
-</html>
+<head> <link rel="stylesheet" href="css/pico.min.css"> </head>
+<table>
+  <thead>
+    <tr>
+      <th scope="col">File Icon</th>
+      <th scope="col">File Name</th>
+      <th scope="col">File Type</th>
+      <th scope="col">File Size</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row"><img
+  class="fit-picture"
+  src="file-solid-full.svg"
+  alt="A computer file" />
+      <td>indext.html</td>
+      <td>HTML</td>
+      <td>495B</td>
+    </tr>
+    <tr>
+      <th scope="row"><img
+  class="fit-picture"
+  src="cloud-solid-full.svg"
+  alt="A cloud" />
+
+      <td>index.json</td>
+      <td>JSON</td>
+      <td>535B</td>
+    </tr>
+    <tr>
+      <th scope="row"><img
+  class="fit-picture"
+  src="comment-solid-full.svg"
+  alt="A comment bubble" />
+      <td>sample.txt</td>
+      <td>Plaintext</td>
+      <td>468B</td>
+    </tr>
+    <tr>
+      <th scope="row"><img
+  class="fit-picture"
+  src="file-pdf-solid-full.svg"
+  alt="A computer file with PDF over it" />
+      <td>Hello World.pdf</td>
+      <td>PDF</td>
+      <td>1230B</td>
+    </tr>
+    <tr>
+      <th scope="row"><img
+  class="fit-picture"
+  src="face-smile-solid-full (1).svg"
+  alt="A smiley face" />
+      <td>face-smile-solid-full (1).svg</td>
+      <td>PNG</td>
+      <td>869B</td>
+    </tr>
+  </tbody>
+</table>>
